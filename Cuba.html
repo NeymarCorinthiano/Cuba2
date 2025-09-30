@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expedição Interdisciplinar - Cuba</title>
+    <style>
+        /* Reset e configurações gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(135deg, #002A8F 0%, #CF142B 100%); /* Cores da bandeira cubana */
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            list-style: none;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: rgba(255,255,255,0.2);
+        }
+
+        /* Conteúdo principal */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            margin-bottom: 30px;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: #002A8F;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        h3 {
+            color: #CF142B;
+            margin: 15px 0 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        /* Imagens */
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .image-caption {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        /* Tabelas e gráficos */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f5f5f5;
+        }
+
+        .chart-container {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+
+        /* Listas */
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Links externos */
+        .external-link {
+            color: #002A8F;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .external-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 5px 0;
+            }
+            
+            section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Expedição Interdisciplinar: Cuba</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#geografia">Geografia</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#portugues">Português</a></li>
+                <li><a href="#matematica">Matemática</a></li>
+                <li><a href="#ciencias">Ciências</a></li>
+                <li><a href="#artes">Artes</a></li>
+                <li><a href="#educacao-fisica">Educação Física</a></li>
+                <li><a href="#ingles">Inglês</a></li>
+                <li><a href="#filosofia">Filosofia</a></li>
+                <li><a href="#economia">Economia</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Cuba: A Pérola do Caribe</h2>
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1506197603050-40b74d66a913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Havana, Cuba">
+                <p class="image-caption">Havana, capital de Cuba</p>
+            </div>
+            <p>Cuba é a maior ilha do Caribe, situada na entrada do Golfo do México. Com uma população de aproximadamente 11,3 milhões de habitantes, é conhecida por sua rica história, cultura vibrante e paisagens deslumbrantes.</p>
+            <p>A nação caribenha possui um sistema político socialista único, resultado da Revolução Cubana de 1959, que transformou profundamente a sociedade e a economia do país.</p>
+            <p>Esta expedição interdisciplinar explorará diferentes aspectos de Cuba através de diversas áreas do conhecimento, revelando as múltiplas facetas desta nação fascinante.</p>
+        </section>
+
+        <section id="geografia">
+            <h2>Geografia</h2>
+            <h3>Localização e Aspectos Físicos</h3>
+            <p>Cuba está situada no Mar do Caribe, na região das Grandes Antilhas. O arquipélago cubano é composto pela ilha principal de Cuba, a Ilha da Juventude e mais de 4.000 cayos (ilhotas).</p>
+            
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Paisagem cubana">
+                <p class="image-caption">Paisagem rural de Cuba</p>
+            </div>
+            
+            <h3>Clima</h3>
+            <p>Cuba possui um clima tropical, com duas estações principais:</p>
+            <ul>
+                <li><strong>Estación seca</strong> (novembro a abril): Período mais fresco e seco, ideal para turismo</li>
+                <li><strong>Estación húmeda</strong> (maio a outubro): Período quente e úmido, com chuvas frequentes e possibilidade de furacões</li>
+            </ul>
+            
+            <h3>Relevo e Hidrografia</h3>
+            <p>O território cubano é predominantemente plano, com três sistemas montanhosos principais:</p>
+            <ul>
+                <li><strong>Sierra Maestra</strong>: No sudeste, onde fica o Pico Turquino (1.974 m), ponto mais alto de Cuba</li>
+                <li><strong>Macizo de Guamuhaya</strong> (Escambray): No centro do país</li>
+                <li><strong>Cordilheira de Guaniguanico</strong>: No oeste</li>
+            </ul>
+            
+            <p>Para explorar mais: <a href="https://www.tripcuba.org/geografia-de-cuba" class="external-link" target="_blank">Geografia de Cuba</a></p>
+        </section>
+
+        <section id="historia">
+            <h2>História</h2>
+            <h3>Linha do Tempo Histórica</h3>
+            <ul>
+                <li><strong>Período Pré-Colombiano</strong>: Habitada por povos taínos, guanahatabeyes e ciboneys</li>
+                <li><strong>1492</strong>: Chegada de Cristóvão Colombo; início da colonização espanhola</li>
+                <li><strong>Séculos XVI-XIX</strong>: Economia baseada em plantations de açúcar com mão de obra escravizada</li>
+                <li><strong>1868-1878</strong>: Guerra dos Dez Anos - primeira guerra pela independência</li>
+                <li><strong>1895-1898</strong>: Guerra de Independência liderada por José Martí</li>
+                <li><strong>1898</strong>: Intervenção norte-americana na Guerra Hispano-Americana</li>
+                <li><strong>1902</strong>: Independência formal, mas com forte influência norte-americana</li>
+                <li><strong>1953-1959</strong>: Revolução Cubana liderada por Fidel Castro</li>
+                <li><strong>1961</strong>: Invasão da Baía dos Porcos e proclamação do caráter socialista da revolução</li>
+                <li><strong>1962</strong>: Crise dos Mísseis de Cuba</li>
+                <li><strong>1991</strong>: Colapso da União Soviética e início do "Período Especial"</li>
+                <li><strong>2008</strong>: Fidel Castro deixa a presidência; assume Raúl Castro</li>
+                <li><strong>2018</strong>: Miguel Díaz-Canel assume a presidência</li>
+            </ul>
+            
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1580136603946-83c732e4b8b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Arquitetura colonial em Havana">
+                <p class="image-caption">Arquitetura colonial em Havana Velha</p>
+            </div>
+            
+            <h3>Personagens Históricos Importantes</h3>
+            <ul>
+                <li><strong>José Martí</strong> (1853-1895): Poeta, escritor e herói nacional da independência</li>
+                <li><strong>Fidel Castro</strong> (1926-2016): Líder da Revolução Cubana e governante por 49 anos</li>
+                <li><strong>Che Guevara</strong> (1928-1967): Revolucionário argentino-cubano, ícone mundial</li>
+                <li><strong>Camilo Cienfuegos</strong> (1932-1959): Comandante revolucionário desaparecido misteriosamente</li>
+            </ul>
+            
+            <p>Para explorar mais: <a href="https://www.ecured.cu/Historia_de_Cuba" class="external-link" target="_blank">História de Cuba - EcuRed</a></p>
+        </section>
+
+        <section id="portugues">
+            <h2>Português</h2>
+            <h3>Crônica: Os Sons e Cores de Havana</h3>
+            
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1558862104-7c6b0157bf0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Rua colorida em Havana">
+                <p class="image-caption">Ruas vibrantes de Havana</p>
+            </div>
+            
+            <p>Havana desperta ao som dos motores antigos. Carros americanos dos anos 50, verdadeiras relíquias sobre rodas, percorrem o Malecón enquanto o sol nasce sobre o Caribe. As cores pastel dos edifícios coloniais parecem mais vivas sob a luz da manhã, testemunhas silenciosas de séculos de história.</p>
+            
+            <p>Pelas ruas de paralelepípedos de Havana Vieja, o ritmo é outro. É o compasso do son cubano que escapa pelas janelas abertas, é o balanço dos corpos dançando mesmo enquanto trabalham. Em cada esquina, a música não é apenas entretenimento - é a respiração da cidade, o sangue que corre por suas veias.</p>
+            
+            <p>Os habaneros falam com as mãos tanto quanto com as palavras. Seus gestos amplos contam histórias de resistência, de alegria apesar das dificuldades, de um orgulho nacional que transcende as circunstâncias. Nos parques, velhos jogam dominó com intensidade olímpica, enquanto crianças uniformizadas caminham para a escola.</p>
+            
+            <p>O cheiro do mar mistura-se com o aroma do café recém-passado e o fumacinha dos charutos. Em La Bodeguita del Medio, as paredes cobertas de assinaturas de visitantes famosos e anônimos testemunham que esta não é apenas uma cidade, mas um estado de espírito.</p>
+            
+            <p>Havana é um paradoxo ambulante: decadência e beleza, carências e riqueza cultural, isolamento e hospitalidade universal. É como se o tempo tivesse parado, mas a vida seguisse em frente, criativa e resiliente. Uma cidade que, apesar de tudo, nunca perdeu o ritmo - nem a esperança.</p>
+        </section>
+
+        <section id="matematica">
+            <h2>Matemática</h2>
+            <h3>Dados Populacionais e Econômicos</h3>
+            
+            <div class="chart-container">
+                <h4>Evolução Populacional de Cuba (1950-2023)</h4>
+                <table>
+                    <tr>
+                        <th>Ano</th>
+                        <th>População (milhões)</th>
+                        <th>Taxa de Crescimento</th>
+                    </tr>
+                    <tr>
+                        <td>1950</td>
+                        <td>5,8</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>1970</td>
+                        <td>8,6</td>
+                        <td>1,98%</td>
+                    </tr>
+                    <tr>
+                        <td>1990</td>
+                        <td>10,6</td>
+                        <td>1,05%</td>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>11,3</td>
+                        <td>0,32%</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>11,3</td>
+                        <td>-0,15%</td>
+                    </tr>
+                </table>
+                <p class="image-caption">Fonte: World Bank, 2023</p>
+            </div>
+            
+            <h3>Indicadores Econômicos (2022)</h3>
+            <table>
+                <tr>
+                    <th>Indicador</th>
+                    <th>Valor</th>
+                    <th>Comparativo Regional</th>
+                </tr>
+                <tr>
+                    <td>PIB (Nominal)</td>
+                    <td>US$ 107 bilhões</td>
+                    <td>8º no Caribe</td>
+                </tr>
+                <tr>
+                    <td>PIB per capita</td>
+                    <td>US$ 9.500</td>
+                    <td>Médio-baixo na região</td>
+                </tr>
+                <tr>
+                    <td>Exportações</td>
+                    <td>US$ 2,3 bilhões</td>
+                    <td>Principalmente níquel, tabaco, medicamentos</td>
+                </tr>
+                <tr>
+                    <td>Importações</td>
+                    <td>US$ 6,8 bilhões</td>
+                    <td>Petróleo, alimentos, maquinário</td>
+                </tr>
+            </table>
+            
+            <h3>Problema Matemático: Produção de Açúcar</h3>
+            <p>No auge na década de 1980, Cuba produzia aproximadamente 8 milhões de toneladas de açúcar por ano. Atualmente, a produção caiu para cerca de 1,2 milhão de toneladas anuais. Calcule:</p>
+            <ol>
+                <li>Qual foi a redução percentual na produção de açúcar?</li>
+                <li>Se Cuba quisesse recuperar 50% da produção perdida, quantas toneladas precisaria produzir?</li>
+            </ol>
+            
+            <p><strong>Solução:</strong></p>
+            <ol>
+                <li>Redução = (8 - 1,2) / 8 × 100 = 6,8 / 8 × 100 = 85%</li>
+                <li>50% da produção perdida = 0,5 × 6,8 = 3,4 milhões de toneladas<br>
+                    Produção necessária = 1,2 + 3,4 = 4,6 milhões de toneladas</li>
+            </ol>
+        </section>
+
+        <section id="ciencias">
+            <h2>Ciências</h2>
+            <h3>Biodiversidade e Ecossistemas</h3>
+            
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Natureza em Cuba">
+                <p class="image-caption">Paisagem natural de Cuba</p>
+            </div>
+            
+            <p>Cuba é considerada um hotspot de biodiversidade, com alto grau de endemismo. A ilha possui ecossistemas variados, incluindo florestas tropicais, manguezais, pradarias e recifes de coral.</p>
+            
+            <h3>Espécies Endêmicas</h3>
+            <ul>
+                <li><strong>Almiquí</strong> (Solenodon cubanus): Mamífero insectívoro venenoso, fóssil vivo</li>
+                <li><strong>Zunzuncito</strong> (Mellisuga helenae): O menor pássaro do mundo, com apenas 5-6 cm</li>
+                <li><strong>Polymita</strong>: Caracóis terrestres com conchas coloridas</li>
+                <li><strong>Crocodilo cubano</strong> (Crocodylus rhombifer): Encontrado apenas no pântano de Zapata</li>
+                <li><strong>Manatí antilhano</strong> (Trichechus manatus): Habita as costas cubanas</li>
+            </ul>
+            
+            <h3>Descobertas Científicas Cubanas</h3>
+            <p>Apesar das limitações econômicas, Cuba desenvolveu avanços notáveis em ciências:</p>
+            <ul>
+                <li><strong>Vacinas</strong>: Desenvolvimento da primeira vacina contra a meningite B e vacinas contra COVID-19 (Abdala, Soberana)</li>
+                <li><strong>Medicina</strong>: Sistema de saúde reconhecido internacionalmente, com baixa mortalidade infantil</li>
+                <li><strong>Biotecnologia</strong>: Desenvolvimento de medicamentos como o PPG (efeito redutor de colesterol)</li>
+            </ul>
+            
+            <h3>Desafios Ambientais</h3>
+            <p>Cuba enfrenta diversos desafios ambientais:</p>
+            <ul>
+                <li><strong>Furacões</strong>: Localizada no coração do corredor de furacões do Caribe</li>
+                <li><strong>Elevação do nível do mar</strong>: Ameaça as áreas costeiras e a agricultura</li>
+                <li><strong>Degradação do solo</strong>: Resultante de práticas agrícolas intensivas</li>
+            </ul>
+        </section>
+
+        <section id="artes">
+            <h2>Artes</h2>
+            <h3>Expressões Artísticas Cubanas</h3>
+            
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-15488679-c7c4dd6e1db4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Música cubana">
+                <p class="image-caption">Músicos cubanos</p>
+            </div>
+            
+            <h4>Música</h4>
+            <p>A música cubana é uma fusão de influências espanholas, africanas e, em menor medida, francesas:</p>
+            <ul>
+                <li><strong>Son cubano</strong>: Base do que se tornaria a salsa</li>
+                <li><strong>Mambo</strong>: Desenvolvido por Pérez Prado nos anos 1940</li>
+                <li><strong>Cha-cha-chá</strong>: Criação do violinista Enrique Jorrín</li>
+                <li><strong>Timba</strong>: Fusão moderna do son com jazz, funk e hip-hop</li>
+                <li><strong>Nueva Trova</strong>: Movimento musical com letras de protesto social</li>
+            </ul>
+            
+            <h4>Dança</h4>
+            <ul>
+                <li><strong>Casino</strong>: Estilo cubano de salsa, dançado em roda</li>
+                <li><strong>Rumba</strong>: De origem africana, com três variantes (yambú, guaguancó, columbia)</li>
+                <li><strong>Danzón</strong>: Dança de salão de origem crioula</li>
+                <li><strong>Balé</strong>: Companhia Nacional de Balé de Cuba, fundada por Alicia Alonso</li>
+            </ul>
+            
+            <h4>Artes Visuais</h4>
+            <ul>
+                <li><strong>Wifredo Lam</strong>: Pintor cubano de renome internacional, surrealista</li>
+                <li><strong>Amelia Peláez</strong>: Modernista conhecida por suas naturezas-mortas</li>
+                <li><strong>José Bedia</strong>: Artista contemporâneo com temáticas afro-cubanas</li>
+                <li><strong>Carteles cubanos</strong>: Cartazes de cinema e propaganda com estilo único</li>
+            </ul>
+            
+            <h4>Literatura</h4>
+            <ul>
+                <li><strong>José Martí</strong>: Poeta e ensaísta, herói nacional</li>
+                <li><strong>Nicolás Guillén</strong>: Poeta, criador da "poesía negra" cubana</li>
+                <li><strong>Alejo Carpentier</strong>: Novelista, criador do conceito de "lo real maravilloso"</li>
+                <li><strong>Guillermo Cabrera Infante</strong>: Escritor exilado, autor de "Tres Tristes Tigres"</li>
+            </ul>
+        </section>
+
+        <section id="educacao-fisica">
+            <h2>Educação Física</h2>
+            <h3>Esportes em Cuba</h3>
+            
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1599058917765-660d3e6cb1e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Esportes em Cuba">
+                <p class="image-caption">Atletas cubanos</p>
+            </div>
+            
+            <h4>Esportes de Destaque</h4>
+            <p>Cuba é uma potência esportiva desproporcional ao seu tamanho e recursos:</p>
+            <ul>
+                <li><strong>Boxe</strong>: Esporte mais bem-sucedido, com múltiplos campeões olímpicos e mundiais</li>
+                <li><strong>Atletismo</strong>: Especialmente em provas de salto e arremesso</li>
+                <li><strong>Lutas</strong>: Luta livre e greco-romana</li>
+                <li><strong>Beisebol</strong>: Esporte nacional, com grande tradição e jogadores na MLB</li>
+                <li><strong>Voleibol</strong>: Tanto masculino quanto feminino têm tradição de sucesso</li>
+                <li><strong>Judô</strong>: Múltiplas medalhas em Jogos Olímpicos</li>
+            </ul>
+            
+            <h4>Sistema Esportivo Cubano</h4>
+            <p>O esporte em Cuba é organizado pelo Estado através de:</p>
+            <ul>
+                <li><strong>INDER</strong>: Instituto Nacional de Deportes, Educación Física y Recreación</li>
+                <li><strong>ESCOLAR</strong>: Sistema de escolas de iniciação esportiva</li>
+                <li><strong>ESPA</strong>: Escuelas de Perfeccionamiento Atlético</li>
+                <li><strong>CEAR</strong>: Centros de Alto Rendimiento</li>
+            </ul>
+            
+            <h3>Atletas Cubanos Famosos</h3>
+            <ul>
+                <li><strong>Teófilo Stevenson</strong>: Boxeador, tricampeão olímpico de pesos pesados</li>
+                <li><strong>Alberto Juantorena</strong>: Atleta, único a vencer 400m e 800m na mesma Olimpíada (1976)</li>
+                <li><strong>Ana Fidelia Quirot</strong>: Atleta, campeã mundial dos 800m</li>
+                <li><strong>Javier Sotomayor</strong>: Detentor do recorde mundial de salto em altura desde 1993</li>
+                <li><strong>Mijaín López</strong>: Lutador, tetracampeão olímpico</li>
+            </ul>
+        </section>
+
+        <section id="ingles">
+            <h2>Língua Estrangeira (Inglês)</h2>
+            <h3>Cuban Spanish and Cultural Expressions</h3>
+            
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Sinais em espanhol em Cuba">
+                <p class="image-caption">Sinais em espanhol nas ruas cubanas</p>
+            </div>
+            
+            <h4>Cuban Spanish Distinctive Features</h4>
+            <p>Cuban Spanish has several distinctive characteristics:</p>
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Example</th>
+                    <th>Explanation</th>
+                </tr>
+                <tr>
+                    <td>Aspiration of /s/</td>
+                    <td>"ehtoy" instead of "estoy"</td>
+                    <td>Final /s/ is often aspirated or dropped</td>
+                </tr>
+                <tr>
+                    <td>Yeísmo</td>
+                    <td>"caye" instead of "calle"</td>
+                    <td>No distinction between "ll" and "y" sounds</td>
+                </tr>
+                <tr>
+                    <td>Vocabulary</td>
+                    <td>guagua (bus), yuma (foreigner)</td>
+                    <td>Unique Cuban words and expressions</td>
+                </tr>
+            </table>
+            
+            <h4>Useful Cuban Spanish Phrases</h4>
+            <table>
+                <tr>
+                    <th>Spanish</th>
+                    <th>Pronunciation</th>
+                    <th>English Meaning</th>
+                </tr>
+                <tr>
+                    <td>¿Qué bola?</td>
+                    <td>Keh boh-lah</td>
+                    <td>What's up? / How's it going?</td>
+                </tr>
+                <tr>
+                    <td>¡Acere!</td>
+                    <td>Ah-seh-reh</td>
+                    <td>Friend! / Buddy!</td>
+                </tr>
+                <tr>
+                    <td>Está volao</td>
+                    <td>Es-tah boh-lah-oh</td>
+                    <td>It's amazing / cool</td>
+                </tr>
+                <tr>
+                    <td>No es fácil</td>
+                    <td>Noh es fah-seel</td>
+                    <td>It's not easy (common expression)</td>
+                </tr>
+                <tr>
+                    <td>¡Oye!</td>
+                    <td>Oh-yeh</td>
+                    <td>Hey! / Listen!</td>
+                </tr>
+            </table>
+            
+            <h4>Cuban Music Terms in English</h4>
+            <p>Many Cuban music terms have entered English vocabulary:</p>
+            <ul>
+                <li><strong>Mambo</strong>: A type of Cuban dance music</li>
+                <li><strong>Rumba</strong>: A family of percussive rhythms and dances</li>
+                <li><strong>Conga</strong>: A Cuban drum and the dance rhythm it produces</li>
+                <li><strong>Bongo</strong>: A pair of small drums played together</li>
+                <li><strong>Guajira</strong>: A Cuban country music style</li>
+                <li><strong>Son</strong>: The foundation of most Cuban popular music</li>
+            </ul>
+        </section>
+
+        <section id="filosofia">
+            <h2>Filosofia/Sociologia</h2>
+            <h3>Valores Sociais e Pensamento Cubano</h3>
+            
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1583324114693-b62d7db575d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Vida social em Cuba">
+                <p class="image-caption">Vida comunitária em Cuba</p>
+            </div>
+            
+            <h4>Princípios da Sociedade Cubana</h4>
+            <ul>
+                <li><strong>Internacionalismo</strong>: Solidariedade com causas revolucionárias mundialmente</li>
+                <li><strong>Antimperialismo</strong>: Oposição à hegemonia norte-americana</li>
+                <li><strong>Igualitarismo</strong>: Busca por reduzir diferenças sociais e econômicas</li>
+                <li><strong>Patria o Muerte</strong>: Sentimento de lealdade nacional acima de tudo</li>
+            </ul>
+            
+            <h4>Pensadores Cubanos</h4>
+            <ul>
+                <li><strong>José Martí</strong>: Filosofia de libertação nacional e justiça social</li>
+                <li><strong>Fidel Castro</strong>: Pensamento revolucionário e antiimperialista</li>
+                <li><strong>Che Guevara</strong>: Teoria do "homem novo" socialista</li>
+                <li><strong>Fernando Ortiz</strong>: Conceito de "transculturação" para entender a identidade cubana</li>
+            </ul>
+            
+            <h4>Organização Social</h4>
+            <p>A sociedade cubana é organizada através de:</p>
+            <ul>
+                <li><strong>Comités de Defensa de la Revolución (CDR)</strong>: Organização de base comunitária</li>
+                <li><strong>Sindicatos</strong>: Organizados por setores de produção</li>
+                <li><strong>Federación de Mujeres Cubanas (FMC)</strong>: Organização para direitos das mulheres</li>
+                <li><strong>Unión de Jóvenes Comunistas (UJC)</strong>: Organização juvenil</li>
+            </ul>
+            
+            <h4>Religião e Sincretismo</h4>
+            <p>Cuba possui um rico sincretismo religioso:</p>
+            <ul>
+                <li><strong>Santería</strong>:
